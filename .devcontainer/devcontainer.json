@@ -1,0 +1,22 @@
+{
+    "name": "react-ojt",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces",
+    "postCreateCommand": "cd next && npm install",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            },
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "bradlc.vscode-tailwindcss",
+                "rodrigovallades.es7-react-js-snippets"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
