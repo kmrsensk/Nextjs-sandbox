@@ -2,7 +2,7 @@
 [Udemy|【Next.js】フルスタック開発基本講座(TypeScript/Prisma/Auth)【脱初心者/わかりやすさ重視】](https://kyoceracs.udemy.com/course/nextjs-basic/learn/lecture/47387611)用のサンドボックス
 
 ## install
-cloneした後、下記のコマンドを実行してください。
+cloneした後、「コンテナで再度開く」を押し、コンテナが立ち上がったら下記のコマンドを実行してください。
 ```
 cd next
 npx prisma init
